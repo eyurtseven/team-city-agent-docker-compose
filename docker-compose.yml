@@ -1,0 +1,7 @@
+version: "3"
+services:
+  teamcity-agent:
+    image: jetbrains/teamcity-agent
+    environment:
+      - SERVER_URL=http://192.168.99.100:8112
+      - AGENT_NAME=Agent
